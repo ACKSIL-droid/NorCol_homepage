@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Grey top-of-window bar with related companies, stock ticker*/
+
+.topbar {
+    background: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: -8px;
+}
+
+.topbar-list {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+    color: rgb(212, 212, 212);
+}
+
+.topbar-link {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-size: 14px;
+}
+
+.topbar-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*White header with logo*/
+
+#logobox {
+    display: flex;
+    align-items: center;
+    font-size: 64px;
+    padding: 48px 48px 8px 48px;
+}
+
+#logo {
+    max-height: 120px;
+    max-width: auto;
+}
+
+/*Page navigation*/
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 64px;
+   margin: 0 -8px;
+   box-shadow: 0 1px 1px gray;
+}
+
+.header-list {
+    display: flex;
+    gap: 1em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:hover {
+    color: grey;
+
+}
+
+/*Who we are*/
+
+#whoweare-container {
+    background-image: url(./img/body1background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+#whoweare-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 500px;
+    width: 1168px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#findouthow {
+    color: white;
+    text-decoration: none;
+}
+
+#findouthow:hover {
+    text-decoration: underline;
+    color: rgb(200, 200, 200);
+}
+
+/*Core Industries*/
+
+#coreindustries {
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    flex-direction: column;
+    padding: 64px 48px;
+    margin: -8px;
+    color: rgb(212, 212, 212);
+}
+
+#corelist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-self: center;
+}
+
+.coretype {
+    width: 200px;
+    height: 300px;
+    bottom: 0;
+    background-color: rgb(41, 110, 121);
+    color: rgb(255, 255, 255);
+}
+
+.robotics {
+    background-image: url(./img/core-robotics.jpg);
+    background-size: cover;
+}
+
+.hi-en {
+    background-image: url(./img/core-hienergy.jpg);
+    background-size: cover;
+}
+
+.hni {
+    background-image: url(./img/core-hni.jpg);
+    background-size: cover;
+}
+
+.kinetics {
+    background-image: url(./img/core-kinetics.jpg);
+    background-size: cover;
+}
+
+.industry {
+    margin: 0;
+    padding: 16px;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: rgba(41, 110, 121, .5);
+    text-align: center;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.industry:hover {
+    opacity: 1;
+    transition: 0.25s;
+    /*box-shadow: 5px 5px white;*/
+}
+
+/*What we do*/
+
