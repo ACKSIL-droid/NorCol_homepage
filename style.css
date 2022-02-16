@@ -13,7 +13,7 @@ ul {
 /*Grey top-of-window bar with related companies, stock ticker*/
 
 .topbar {
-    background: rgb(42, 42, 42);
+    background: rgb(11, 11, 17);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,13 +94,14 @@ ul {
 /*Who we are*/
 
 #whoweare-container {
-    background-image: url(./img/body1background.jpg);
+    background-image: url(./img/background1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 600px;
     width: 100%;
 }
 
@@ -109,8 +110,8 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    height: 500px;
-    width: 1168px;
+    height: 600px;
+    width: 1200px;
     color: white;
     font-weight: bold;
     font-size: large;
@@ -128,7 +129,7 @@ ul {
 /*Core Industries*/
 
 #coreindustries {
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(11, 11, 17);
     display: flex;
     flex-direction: column;
     padding: 64px 48px;
@@ -216,3 +217,49 @@ ul {
 
 /*What we do*/
 
+#whatwedo-container {
+    background-image: url(./img/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+#whatwedo-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 600px;
+    width: 1200px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: rgb(11, 11, 17);
+    color: rgb(212, 212, 212);
+    display: flex;
+}
+
+#footerleft {
+    display: flex;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+}
+
+.footerlinks:hover {
+    color: white;
+}
