@@ -293,3 +293,11 @@ ul {
     max-width: 32px;
     max-height: auto;
 }
+
+#bottombar {
+    text-align: center;
+    background-color: rgb(11, 11, 17);
+    color: rgb(212, 212, 212);
+    padding: 16px;
+    margin: 0 -8px;
+}
