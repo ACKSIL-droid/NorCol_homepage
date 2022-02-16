@@ -6,6 +6,10 @@ body {
     font-family: Share Tech Mono, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
@@ -30,7 +34,6 @@ ul {
 }
 
 .topbar-link {
-    text-decoration: none;
     color: rgb(212, 212, 212);
     font-size: 14px;
 }
@@ -68,11 +71,6 @@ ul {
     gap: 1em;
     margin-left: 0;
     padding-left: 0;
-}
-
-.header-link-left,
-.header-link-right {
-    text-decoration: none;
 }
 
 .header-link-left {
@@ -119,11 +117,10 @@ ul {
 
 #findouthow {
     color: white;
-    text-decoration: none;
 }
 
 #findouthow:hover {
-    text-decoration: underline;;
+    text-decoration: underline;
 }
 
 /*Core Industries*/
@@ -174,7 +171,6 @@ ul {
 }
 
 .corelink {
-    text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
@@ -188,6 +184,11 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.industrytitle {
+    font-weight: bold;
+    text-shadow: 0 0 2px black;
 }
 
 .industrybody {
@@ -205,7 +206,6 @@ ul {
 }
 
 #knowmore {
-    text-decoration: none;
     color: rgb(212, 212, 212);
 }
 
@@ -248,18 +248,48 @@ ul {
     background-color: rgb(11, 11, 17);
     color: rgb(212, 212, 212);
     display: flex;
+    justify-content: space-between;
+    margin: -8px -8px;
+    min-height: 250px;
+    padding: 32px;
 }
 
 #footerleft {
     display: flex;
+    margin-left: 0;
+}
+
+.footer-list {
+    margin: 16px;
+}
+
+.footer-list:first-child {
+    margin: 16px 16px 32px 16px;
 }
 
 .footerlinks {
-    text-decoration: none;
     color: rgb(212, 212, 212);
     font-weight: bold;
 }
 
 .footerlinks:hover {
     color: white;
+}
+
+#footerright {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+#socials {
+    display: flex;
+    gap: 16px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.socialicon {
+    max-width: 32px;
+    max-height: auto;
 }
