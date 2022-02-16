@@ -1,5 +1,5 @@
 # NorCol Technologies
-A homepage for a definitely not-evil fictional corporation.
+Homepage for a definitely not-evil fictional corporation. An assignment for the Odin Project Foundations module.
 
 Images sourced from pexels.com. Image credits:
 
